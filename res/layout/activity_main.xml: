@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:padding="24dp"
+  android:layout_width="match_parent" android:layout_height="match_parent">
+  <TextView
+      android:text="BLE-M3 Interceptor • Không pair thiết bị trong Settings. Bấm START để app tự kết nối & map nút sang Media/Zello."
+      android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <Button android:id="@+id/startBtn" android:text="START SERVICE"
+      android:layout_width="match_parent" android:layout_height="wrap_content" />
+  <Button android:id="@+id/stopBtn" android:text="STOP"
+      android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
